@@ -1,20 +1,18 @@
 {
-  "name": "reqbody",
-  "description": "http.get gets a body",
-  "version": "0.1.0",
   "author": "Nicholas McClay <nick@nickmcclay.com>",
-  "devDependencies": {
-    "mocha" : "0.10.1"
+  "name": "reqbody",
+  "description": "something something",
+  "version": "0.1.0",
+  "homepage": "https://github.com/nmcclay/reqbody",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nmcclay/reqbody.git"
   },
-  "keywords": [
-    "http",
-    "body",
-    "request",
-  ],
-  "repository": "git://github.com/nmcclay/reqbody.git",
   "main": "reqbody.js",
-  "scripts": {
-    "test": "mocha ./tests/test.js",
+  "engines": {
+    "node": ">= 0.4.1 < 0.7.0"
   },
-  "engines": { "node": ">= 0.4.1 < 0.7.0" }
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {}
 }
